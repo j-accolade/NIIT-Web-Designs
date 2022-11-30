@@ -1,0 +1,156 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: montserrat;
+  background-color: #f7f7f7;
+}
+
+.body-padding{
+  padding: 0 2rem;
+}
+
+.body-top-margin{
+padding-top: 5rem;
+}
+
+
+.card-icon{
+  width: 70%;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 16px;
+  width: 20%;
+  border: 1px solid #f2eded;
+  padding: 16px;
+  border-radius: 16px;
+  position: relative;
+  background-color: white;
+}
+
+.card img{
+  width: 20%;
+}
+
+.card:hover{
+  background-color: blueviolet;
+  color: white;
+}
+
+.card:hover .navigate > i{
+  color: white;
+}
+.card:hover > p{
+  color: white;
+}
+
+.card:hover > h4{
+  color: white;
+}
+
+.card:hover > i{
+  color: white;
+}
+
+
+
+.card .navigate{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+}
+
+.icon-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+}
+
+.main-div{
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  row-gap: 2rem;
+}
+
+.navigate-div{
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.normal-margin{
+  margin: 4px 0;
+}
+
+@media screen and (max-width: 560px) {
+  .main-div{
+    width: 100%;
+    flex-direction: column;
+    row-gap: 48px;
+    box-sizing: border-box;
+
+  }
+  .card{
+    width: 95%;
+  }
+}
+
+.paragraph-text{
+  font-size: 0.9rem;
+}
+
+.primary{
+  color: blueviolet;
+}
+
+.purple-col{
+  color: #f80afc;
+}
+.bg-purple-light{
+  background-color: #feedff;
+}
+.aqua-col{
+  color: #3cecfc;
+}
+.bg-aqua-light{
+  background-color: #eafafc;
+}
+
+.red-col{
+  color: #ff0000;
+}
+.bg-red-light{
+  background-color: #ffe2e2;
+}
+
+.blue-col{
+  color: #3700ff;
+}
+.bg-blue-light{
+  background-color: #dcd2ff;
+}
+
+p{
+  color: #595959;
+}
+
+.text-underline{
+  text-decoration: underline pink 4px;
+}
+
